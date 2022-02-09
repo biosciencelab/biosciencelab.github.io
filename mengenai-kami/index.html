@@ -14,7 +14,7 @@
 </head>
 <body>
     <div id="app">
-        <nav class="p-3 bg-gray-100 lg:bg-gray-50  flex justify-center sticky top-0 z-10 bg-opacity-90 backdrop-blur-md">
+		<nav class="p-3 bg-gray-100 lg:bg-gray-50  flex justify-center sticky top-0 z-10 bg-opacity-90 backdrop-blur-md">
             <div class="text-white max-w-screen-lg w-full">
                 <div class="flex flex-col lg:flex-row justify-between">
                     <div>
@@ -102,15 +102,26 @@
                                         </div>
                                         <div class="lg:absolute lg:pt-6 lg:invisible lg:group-hover:visible lg:w-80 lg:-translate-x-1/2 lg:left-1/2">
                                             <ul class="lg:bg-white p-4 rounded-lg lg:shadow-lg w-full lg:max-w-xs lg:relative">
-                                                <li class="px-3 py-2 lg:px-0">
+                                                <li class="py-2 lg:px-0">
                                                     <a href="/mengenai-kami">
-                                                        Mengenai Kami
+                                                        Mengenai Kami <span>
+                                                            <box-icon type='solid' name='badge-check' class="fill-teal-300" size="xs"></box-icon>
+                                                        </span>
                                                     </a>
                                                 </li>
-                                                <li>
-                                                    Visi & Misi
+                                                <li class="py-2 lg:px-0">
+                                                    <a href="/mengenai-kami">
+                                                        Visi & Misi <span>
+                                                            <box-icon type='solid' name='badge-check' class="fill-teal-300" size="xs"></box-icon>
+                                                        </span>
+                                                    </a>
                                                 </li>
-                                                <li class="text-gray-300">
+                                                <li class="py-2 lg:px-0">
+                                                    <a href="#staff">
+                                                        Staff
+                                                    </a>
+                                                </li>
+                                                <li class="text-gray-300 py-2 lg:px-0">
                                                     Menu lainnya
                                                 </li>
                                             </ul>
@@ -130,8 +141,12 @@
                                                 <li>
                                                     SI Kunjungan
                                                 </li>
-                                                <li>
-                                                    Laboratorium
+                                                <li class="py-2 lg:px-0">
+                                                    <a href="/laboratorium">
+                                                        Laboratorium <span>
+                                                            <box-icon type='solid' name='badge-check' class="fill-teal-300" size="xs"></box-icon>
+                                                        </span>
+                                                    </a>
                                                 </li>
                                                 <li>
                                                     Peralatan Laboratorium
