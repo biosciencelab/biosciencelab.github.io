@@ -5334,6 +5334,33 @@ var app = new Vue({
     },
     search: {
       searchbar: false
+    },
+    model: {
+      peralatan: [{
+        name: 'Penghasil Nitrogen cair'
+      }, {
+        name: 'SpektrofotometerUV-Vis'
+      }, {
+        name: 'Flokulator'
+      }, {
+        name: 'Peralatan Ekstraksi Lemak'
+      }, {
+        name: 'Flame Fotometer'
+      }, {
+        name: 'Pemanas'
+      }, {
+        name: 'Ekstaraksi'
+      }, {
+        name: 'Penggiling & Penghancur'
+      }, {
+        name: 'Neraca Analitis'
+      }, {
+        name: 'AAS'
+      }, {
+        name: 'Autoclave'
+      }, {
+        name: 'Tanur'
+      }]
     }
   },
   methods: {
